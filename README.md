@@ -17,9 +17,9 @@ This repository contains my solutions for two machine learning use cases:
 - Details: Explained in the presentation
 
 ## 📁 Repository Structure
-- `presentation.pptx` – Slides covering both use cases  
-- `use_case_1.ipynb` – Implementation for Use Case 1  
-- `data.csv` – Sample dataset used for Use Case 1  
+- `ML6_AI_Engineer_usecase_Solutions.pptx` – Slides covering both use cases  
+- `sensor_data_notebook.ipynb` – Implementation for Use Case 1  
+- `data_sensors.csv` – Sample dataset used for Use Case 1  
 
 ## 🚀 Notes
 The focus of this work is on building simple, practical MVP solutions that can be scaled into production systems.
