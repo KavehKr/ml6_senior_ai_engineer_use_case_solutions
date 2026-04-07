@@ -1,9 +1,3 @@
-## setup
-Install dependencies
-
-'''bash
-pip install -r requirements.txt
-
 # ml6_senior_ai_engineer_use_case_solutions
 Solutions to AI engineering case studies: semi-supervised clustering for sensor data and computer vision for sports analytics.
 
@@ -11,6 +5,12 @@ Solutions to AI engineering case studies: semi-supervised clustering for sensor 
 Author: Kaveh Kasaee Roodsari
 
 This repository contains my solutions for two machine learning use cases:
+
+## setup
+Install dependencies
+
+'''bash
+pip install -r requirements.txt
 
 ## 📊 Use Case 1 – Clustering Sensor Data
 - Goal: Identify patterns in machine breakdown data using limited labeled examples
