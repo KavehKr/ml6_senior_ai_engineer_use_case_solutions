@@ -1,31 +1,48 @@
-# ml6_senior_ai_engineer_use_case_solutions
-Solutions to AI engineering case studies: semi-supervised clustering for sensor data and computer vision for sports analytics.
+# AI Engineer Case Study – ML Solutions
 
-# AI Engineer Case Study
-Author: Kaveh Kasaee Roodsari
+This repository contains my solutions for two machine learning use cases, developed as part of an AI/ML engineering case study.
 
-This repository contains my solutions for two machine learning use cases:
+The focus is on building **practical, scalable solutions** that combine strong machine learning foundations with real-world applicability.
 
-## setup
-Install dependencies
+---
 
-'''bash
+## 👤 Author
+**Kaveh Kasaee Roodsari**  
+Senior AI/ML Engineer
+
+---
+
+## 📌 Overview
+
+This project addresses two different challenges:
+
+### 📊 Use Case 1 – Clustering Sensor Data
+- **Objective:** Extract meaningful insights from machine breakdown data with very limited labeled examples  
+- **Challenge:** Only 40 labeled samples out of 1,600 data points  
+- **Approach:**  
+  - Semi-supervised learning  
+  - Feature selection (ANOVA)  
+  - Random Forest for pseudo-labeling  
+  - Similarity-based validation  
+  - Clustering (KMeans) to analyze remaining data  
+- **Implementation:** `sensor_data_notebook.ipynb`
+
+---
+
+### ⚽ Use Case 2 – Sports Video Analytics
+- **Objective:** Count players per team in a soccer match video  
+- **Approach:**  
+  - Computer vision pipeline  
+  - Person detection  
+  - Feature extraction  
+  - Clustering-based team assignment  
+- **Details:** Explained in the presentation
+
+---
+
+## ⚙️ Setup
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
-
-## 📊 Use Case 1 – Clustering Sensor Data
-- Goal: Identify patterns in machine breakdown data using limited labeled examples
-- Approach: Semi-supervised learning with clustering and labeled data integration
-- Implementation: Provided in the Jupyter notebook (`use_case_1.ipynb`)
-
-## ⚽ Use Case 2 – Sports Video Analytics
-- Goal: Count how many players per team are visible in a soccer match video
-- Approach: Computer vision pipeline with person detection, feature extraction, and clustering-based team assignment
-- Details: Explained in the presentation
-
-## 📁 Repository Structure
-- `ML6_AI_Engineer_usecase_Solutions.pptx` – Slides covering both use cases  
-- `sensor_data_notebook.ipynb` – Implementation for Use Case 1  
-- `data_sensors.csv` – Sample dataset used for Use Case 1  
-
-## 🚀 Notes
-The focus of this work is on building simple, practical MVP solutions that can be scaled into production systems.
